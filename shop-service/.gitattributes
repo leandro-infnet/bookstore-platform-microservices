@@ -1,0 +1,64 @@
+# -------------------------------------------------------------
+# Git Attributes — padrão para projetos Java / Spring Boot
+# Compatível com Linux, macOS e Windows
+# -------------------------------------------------------------
+
+* text=auto eol=lf
+
+# === ARQUIVOS DE CÓDIGO ===
+*.java      text eol=lf
+*.kt        text eol=lf
+*.groovy    text eol=lf
+*.xml       text eol=lf
+*.gradle    text eol=lf
+*.properties text eol=lf
+*.yml       text eol=lf
+*.yaml      text eol=lf
+*.json      text eol=lf
+*.sql       text eol=lf
+*.csv       text eol=lf
+*.md        text eol=lf
+*.html      text eol=lf
+*.css       text eol=lf
+*.js        text eol=lf
+*.ts        text eol=lf
+
+# === ARQUIVOS DE SCRIPT ===
+# Maven Wrapper
+mvnw        text eol=lf
+mvnw.cmd    text eol=crlf
+
+# Gradle Wrapper
+gradlew     text eol=lf
+gradlew.bat text eol=crlf
+
+# Shell e Batch
+*.sh        text eol=lf
+*.bash      text eol=lf
+*.bat       text eol=crlf
+*.cmd       text eol=crlf
+
+# === ARQUIVOS BINÁRIOS ===
+# Estes não devem ser convertidos (nem alterados em EOL)
+*.jar       binary
+*.war       binary
+*.zip       binary
+*.tar       binary
+*.gz        binary
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.ico       binary
+*.pdf       binary
+*.class     binary
+
+# === ARQUIVOS DE IDE ===
+*.iml       text eol=lf
+*.ipr       text eol=lf
+*.iws       text eol=lf
+
+# === IGNORAR QUEBRAS INÚTEIS EM CHAVES SSH, CERTIFICADOS ETC. ===
+*.pem       text eol=lf
+*.key       text eol=lf
+*.crt       text eol=lf
