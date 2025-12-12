@@ -1,8 +1,3 @@
-# -------------------------------------------------------------
-# Git Attributes — padrão para projetos Java / Spring Boot
-# Compatível com Linux, macOS e Windows
-# -------------------------------------------------------------
-
 * text=auto eol=lf
 
 # === ARQUIVOS DE CÓDIGO ===
@@ -39,7 +34,6 @@ gradlew.bat text eol=crlf
 *.cmd       text eol=crlf
 
 # === ARQUIVOS BINÁRIOS ===
-# Estes não devem ser convertidos (nem alterados em EOL)
 *.jar       binary
 *.war       binary
 *.zip       binary
