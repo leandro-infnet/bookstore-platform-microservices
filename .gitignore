@@ -1,3 +1,45 @@
-**/target/
-**/.mvn/
-**/.idea/
+# =====================
+# Java & Maven (Build Artifacts)
+# =====================
+# Ignora 'target' em qualquer nível (CRUCIAL para Monorepo)
+target/
+*.class
+
+# Logs
+*.log
+
+# =====================
+# IDEs (Configurações locais não devem subir)
+# =====================
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.classpath
+.project
+.settings/
+.springBeans
+bin/
+
+# =====================
+# OS Junk Files
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Segurança (Nunca versione segredos)
+# =====================
+.env
+*.key
+*.p12
+*.jks
+secret.properties
+
+# =====================
+# Test Coverage
+# =====================
+jacoco.exec
+/test-output/
+/surefire-reports/
