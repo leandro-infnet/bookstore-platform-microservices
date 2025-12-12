@@ -42,3 +42,13 @@ secret.properties
 jacoco.exec
 /test-output/
 /surefire-reports/
+
+# =====================
+# Docker
+# =====================
+docker-compose.override.yml
+
+# =====================
+# Docs
+# =====================
+HELP.md
