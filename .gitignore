@@ -1,7 +1,6 @@
 # =====================
 # Java & Maven (Build Artifacts)
 # =====================
-# Ignora 'target' em qualquer nível (CRUCIAL para Monorepo)
 target/
 *.class
 
@@ -9,7 +8,7 @@ target/
 *.log
 
 # =====================
-# IDEs (Configurações locais não devem subir)
+# IDEs
 # =====================
 .idea/
 *.iml
@@ -29,7 +28,7 @@ bin/
 Thumbs.db
 
 # =====================
-# Segurança (Nunca versione segredos)
+# Security
 # =====================
 .env
 *.key
